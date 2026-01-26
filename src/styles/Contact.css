@@ -1,0 +1,104 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* กัน navbar sticky บังหัวข้อ */
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* หัวข้อกลาง */
+.contact-header {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.contact-title {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.contact-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* ✅ กล่อง Get in Touch ให้อยู่กลาง */
+.contact-card {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;          /* ⭐ ทำให้การ์ดอยู่กลาง */
+  padding: 18px 6px;
+  text-align: center;      /* ⭐ ทำให้หัวข้อ/ข้อความในกล่องอยู่กลาง */
+}
+
+.contact-card-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* รายการ */
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+
+  align-items: center;     /* ⭐ ทำให้แต่ละแถวอยู่กลาง */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  justify-content: center; /* ⭐ ทำให้ icon+link อยู่กลาง */
+}
+
+.contact-icon {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(0, 0, 0, 0.22);
+
+  color: rgba(167, 139, 250, 0.95);
+  font-weight: 800;
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.contact-link:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-title {
+    font-size: 44px;
+  }
+
+  .contact-card {
+    max-width: 100%;
+  }
+}

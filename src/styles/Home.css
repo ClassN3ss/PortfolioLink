@@ -1,0 +1,51 @@
+.hero {
+  min-height: calc(100vh - 80px); /* ลบความสูง navbar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 200px;
+}
+
+/* ชื่อใหญ่ */
+.title {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -1px;
+
+  margin-bottom: 18px;
+
+  background: linear-gradient(90deg, #a78bfa, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* รายละเอียด */
+.desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 0;
+  }
+
+  .title {
+    font-size: 46px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+}
