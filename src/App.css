@@ -99,10 +99,6 @@ section[id]{
 /* กัน navbar บังตอนคลิกเมนู */
 section[id] { scroll-margin-top: 90px; }
 
-@media (prefers-reduced-motion: reduce) {
-  .bg::after { animation: none; }
-}
-
 /* Responsive ของกลาง */
 @media (max-width: 768px) {
   .container { padding: 36px 16px; }
