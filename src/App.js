@@ -20,19 +20,19 @@ function App() {
           path="/"
           element={
             <>
-              <section id="home">
+              <section id="home" className="section">
                 <Home />
               </section>
 
-              <section id="summary">
+              <section id="summary" className="section">
                 <Summary />
               </section>
 
-              <section id="projects">
+              <section id="projects" className="section">
                 <Projects />
               </section>
 
-              <section id="contact">
+              <section id="contact" className="section">
                 <Contact />
               </section>
             </>
