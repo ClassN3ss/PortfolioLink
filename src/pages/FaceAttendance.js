@@ -63,7 +63,23 @@ const FaceAttendance = () => {
             rel="noreferrer"
             className="btn primary"
           >
-            GitHub Code(have 3)
+            Frontend
+          </a>
+          <a
+            href="https://github.com/ClassN3ss?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+            className="btn primary"
+          >
+            Backend
+          </a>
+          <a
+            href="https://github.com/ClassN3ss?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+            className="btn primary"
+          >
+            Backend(Model)
           </a>
         </div>
       </div>
