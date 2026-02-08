@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Summary from "./components/Summary";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import FaceAttendance from "./pages/FaceAttendance";
@@ -16,7 +16,6 @@ function App() {
         <Navbar />
 
         <Routes>
-          {/* หน้าเดียว (scroll) */}
           <Route
             path="/"
             element={
@@ -25,8 +24,8 @@ function App() {
                   <Home />
                 </section>
 
-                <section id="summary">
-                  <Summary />
+                <section id="about">
+                  <About />
                 </section>
 
                 <section id="projects">

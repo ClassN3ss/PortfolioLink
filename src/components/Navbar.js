@@ -19,7 +19,7 @@ const Navbar = () => {
       <h2 onClick={() => scrollTo("home")} className="logo">My Portfolio</h2>
       <ul>
         <li onClick={() => scrollTo("home")}>Home</li>
-        <li onClick={() => scrollTo("summary")}>Summary</li>
+        <li onClick={() => scrollTo("about")}>About Me</li>
         <li onClick={() => scrollTo("projects")}>Projects</li>
         <li onClick={() => scrollTo("contact")}>Contact</li>
       </ul>
