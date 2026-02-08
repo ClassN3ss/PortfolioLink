@@ -59,7 +59,6 @@ body {
   100% { transform: translate3d(1%, 2%, 0) scale(1.02); }
 }
 
-/* Layout กลาง */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -68,13 +67,12 @@ body {
   z-index: 1;
 }
 
-/* Section กลาง (ทำให้เหมือนหลายหน้า) */
 .section{
   position: relative;
   z-index: 1;
-  min-height: 100vh;      /* สำคัญ: กันเห็น section ถัดไป */
-  padding-top: 90px;      /* เว้นให้พ้น navbar */
-  padding-bottom: 90px;   /* กันเห็นหัว section ล่าง */
+  min-height: 100vh;      
+  padding-top: 90px;      
+  padding-bottom: 90px;   
 }
 
 .section.center{
@@ -96,10 +94,8 @@ section[id]{
   scroll-margin-top: 90px;
 }
 
-/* กัน navbar บังตอนคลิกเมนู */
 section[id] { scroll-margin-top: 90px; }
 
-/* Responsive ของกลาง */
 @media (max-width: 768px) {
   .container { padding: 36px 16px; }
   .section.block { padding-top: 72px; }

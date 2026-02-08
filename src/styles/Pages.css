@@ -1,6 +1,6 @@
 .fa-page {
   min-height: 100vh;
-  background: transparent; /* ใช้ bg เดียวกับเว็บหลัก */
+  background: transparent;
   padding-top: 60px;
 }
 
@@ -153,7 +153,6 @@
     inset 0 1px 0 rgba(255,255,255,0.08);
 }
 
-/* primary button (Visit Site) */
 .btn.primary {
   background: linear-gradient(
     135deg,
