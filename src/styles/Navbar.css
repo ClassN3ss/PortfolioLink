@@ -1,7 +1,9 @@
 .navbar {
-  position: sticky;
+  position: fixed;     /* 🔴 เปลี่ยนจาก sticky */
   top: 0;
-  z-index: 50;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 
   display: flex;
   align-items: center;

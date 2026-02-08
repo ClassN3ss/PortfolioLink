@@ -1,8 +1,12 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "../App.css";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
+  const location = useLocation();
+  if (location.pathname !== "/") return null;
+
   const scrollTo = (id) => {
     const el = document.getElementById(id);
     if (!el) return;
