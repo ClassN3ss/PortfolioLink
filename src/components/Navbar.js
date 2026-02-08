@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h2 onClick={() => scrollTo("home")} className="logo">My Portfolio</h2>
+      <h2 onClick={() => scrollTo("home")} className="logo">Pathanin Thima Portfolio</h2>
       <ul>
         <li onClick={() => scrollTo("home")}>Home</li>
         <li onClick={() => scrollTo("about")}>About Me</li>

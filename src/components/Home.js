@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="hero">
       <h1 className="title">Pathanin Thima</h1>
-      <p className="subtitle">Computer Science Student</p>
+      <p className="subtitle">- Computer Science Student -</p>
       <div className="hero-chips">
         {["React", "JavaScript", "Node.js", "Angular", "MongoDB", "MySQL", "Python"].map((skill) => (
           <span className="chip" key={skill}>{skill}</span>
