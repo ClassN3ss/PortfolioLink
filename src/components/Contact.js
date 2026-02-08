@@ -8,6 +8,7 @@ const Contact = () => {
       <header className="contact-header">
         <h2 className="contact-title">Contact Me</h2>
       </header>
+      <hr></hr>
 
       <div className="contact-card">
 
