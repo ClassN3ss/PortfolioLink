@@ -57,7 +57,11 @@
 }
 
 .contact-item {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  justify-content: flex-start; 
 }
 
 /* .contact-icon {
@@ -75,7 +79,9 @@
 } */
 
 .contact-link {
-  position: relative;
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .contact-link::after {
