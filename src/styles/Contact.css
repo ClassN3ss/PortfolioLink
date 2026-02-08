@@ -101,6 +101,15 @@
   width: 100%;
 }
 
+.contact-divider {
+  width: 200px;                
+  height: 2px;
+  margin: 18px auto 0;       
+  border: none;
+
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 2px;
+}
 @media (max-width: 900px) {
   .contact-title {
     font-size: 44px;
