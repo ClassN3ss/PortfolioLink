@@ -8,7 +8,7 @@ const Home = () => {
       <h1 className="title">Pathanin Thima</h1>
       <p className="subtitle">Computer Science Student</p>
       <div className="hero-chips">
-        {["React", "JavaScript", "Node.js", "PostgreSQL"].map((skill) => (
+        {["React", "JavaScript", "Node.js", "Angular", "Python", "MongoDB", "MySQL"].map((skill) => (
           <span className="chip" key={skill}>{skill}</span>
         ))}
       </div>
