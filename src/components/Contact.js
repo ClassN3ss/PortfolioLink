@@ -14,13 +14,19 @@ const Contact = () => {
         <ul className="contact-list">
           <li className="contact-item">
             <p className="contact-link">
-              nattawut.thima@gmail.com
+              Email: nattawut.thima@gmail.com
             </p>
           </li>
 
           <li className="contact-item">
             <a className="contact-link" href="https://github.com/ClassN3ss" target="_blank" rel="noreferrer">
-              github.com/ClassN3ss
+              Github: github.com/ClassN3ss
+            </a>
+          </li>
+
+          <li className="contact-item">
+            <a className="contact-link" href="https://www.facebook.com/nattawut.thima/" target="_blank" rel="noreferrer">
+              Facebook: Pathanin Thima
             </a>
           </li>
         </ul>
