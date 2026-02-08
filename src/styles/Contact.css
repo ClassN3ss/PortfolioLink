@@ -34,8 +34,8 @@
   width: 100%;
   max-width: 520px;
   margin: 0 auto;         
-  padding: 18px 6px;
-  text-align: left;     
+  display: flex;
+  justify-content: center;     
 }
 
 .contact-card-title {
@@ -51,7 +51,7 @@
   flex-direction: column;
   gap: 18px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 
   align-items: flex-start;
 }
@@ -76,6 +76,7 @@
 
 .contact-link {
   position: relative;
+  font-size: 30px;
   color: rgba(255, 255, 255, 0.72);
   text-decoration: none;
   transition: color 0.15s ease;
@@ -93,7 +94,7 @@
 }
 
 .contact-link:hover {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(167, 139, 250, 0.95);
 }
 
 .contact-link:hover::after {
