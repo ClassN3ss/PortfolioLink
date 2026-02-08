@@ -5,7 +5,7 @@ import "../styles/About.css";
 const About = () => {
   return (
     <div className="about">
-      <h2 className="about-title">Summary</h2>
+      <h1 className="about-title">About Me</h1>
       <p className="about-text">
         Hello, I’m Pathanin Thima (A),
         a recent Computer Science graduate with hands-on experience in web application development through academic and project-based work. 
